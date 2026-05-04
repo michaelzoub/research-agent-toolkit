@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="1400" height="900" fill="#F6F0E6"/>
+  <g stroke="#111" stroke-width="2" fill="none" opacity="0.85">
+    <path d="M220 700 L520 220 L820 700 Z"/>
+    <path d="M520 220 L1080 380 L820 700"/>
+    <path d="M520 220 L320 420 L820 700"/>
+    <path d="M320 420 L1080 380"/>
+    <path d="M320 420 L540 560 L1080 380"/>
+  </g>
+
+  <!-- nodes -->
+  <g fill="#111">
+    <circle cx="220" cy="700" r="8"/>
+    <circle cx="520" cy="220" r="8"/>
+    <circle cx="820" cy="700" r="8"/>
+    <circle cx="320" cy="420" r="6"/>
+    <circle cx="1080" cy="380" r="6"/>
+    <circle cx="540" cy="560" r="6"/>
+  </g>
+
+  <!-- sparse labels -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#2A2A2A" opacity="0.65">
+    <text x="235" y="724">n0</text>
+    <text x="535" y="244">n1</text>
+    <text x="835" y="724">n2</text>
+    <text x="1090" y="404">n3</text>
+  </g>
+
+  <!-- single accent -->
+  <line x1="520" y1="220" x2="1080" y2="380" stroke="#D97843" stroke-width="3"/>
+
+  <text x="160" y="840" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#303030">LINEAR NETWORK</text>
+  <text x="160" y="864" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#6A6A6A">triangular geometry · filled nodes · single rust edge</text>
+</svg>
+

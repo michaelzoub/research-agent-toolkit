@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6F0E6"/>
+      <stop offset="1" stop-color="#EFE7DB"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="
+        1 0 0 0 0
+        0 1 0 0 0
+        0 0 1 0 0
+        0 0 0 .05 0"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <rect width="1400" height="900" filter="url(#grain)" opacity="0.55"/>
+
+  <!-- grid -->
+  <g stroke="#2A2A2A" stroke-width="1" opacity="0.25">
+    <path d="M150 120 H1250"/>
+    <path d="M150 200 H1250"/>
+    <path d="M150 280 H1250"/>
+    <path d="M150 360 H1250"/>
+    <path d="M150 440 H1250"/>
+    <path d="M150 520 H1250"/>
+    <path d="M150 600 H1250"/>
+    <path d="M150 680 H1250"/>
+    <path d="M150 760 H1250"/>
+    <path d="M150 120 V780"/>
+    <path d="M260 120 V780"/>
+    <path d="M370 120 V780"/>
+    <path d="M480 120 V780"/>
+    <path d="M590 120 V780"/>
+    <path d="M700 120 V780"/>
+    <path d="M810 120 V780"/>
+    <path d="M920 120 V780"/>
+    <path d="M1030 120 V780"/>
+    <path d="M1140 120 V780"/>
+    <path d="M1250 120 V780"/>
+  </g>
+
+  <!-- organic vegetation blobs -->
+  <g fill="#2A2A2A" opacity="0.10">
+    <path d="M330,490 C270,430 300,350 380,340 C470,330 520,420 485,495 C450,570 370,560 330,490 Z"/>
+    <path d="M930,520 C880,455 905,380 980,370 C1065,360 1110,440 1085,520 C1060,600 975,590 930,520 Z"/>
+    <path d="M610,250 C570,220 585,170 635,160 C690,150 720,195 705,240 C690,285 640,285 610,250 Z"/>
+  </g>
+
+  <!-- site rectangles -->
+  <g fill="none" stroke="#2A2A2A" stroke-width="2">
+    <rect x="510" y="380" width="380" height="260"/>
+    <rect x="560" y="430" width="280" height="160"/>
+  </g>
+
+  <!-- single accent line -->
+  <line x1="540" y1="405" x2="860" y2="405" stroke="#D97843" stroke-width="3"/>
+
+  <text x="170" y="820" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#303030">SITE PLAN STUDY</text>
+  <text x="170" y="844" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#6A6A6A">top-down grid · organic overlays · single rust datum line</text>
+</svg>
+

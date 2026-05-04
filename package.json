@@ -1,0 +1,15 @@
+{
+  "name": "research-agent",
+  "private": true,
+  "workspaces": [
+    "mcp/*"
+  ],
+  "scripts": {
+    "build": "npm -ws run build",
+    "typecheck": "npm -ws run typecheck"
+  },
+  "devDependencies": {
+    "@cfworker/json-schema": "^4.1.1",
+    "@modelcontextprotocol/client": "^2.0.0-alpha.2"
+  }
+}

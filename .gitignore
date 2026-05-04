@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+
+# env / secrets
+.env
+.env.*
+
+# logs
+*.log
+
+outputs/

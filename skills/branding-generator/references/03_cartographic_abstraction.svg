@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F6F0E6"/>
+      <stop offset="1" stop-color="#EFE7DB"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="
+        1 0 0 0 0
+        0 1 0 0 0
+        0 0 1 0 0
+        0 0 0 .05 0"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <rect width="1400" height="900" filter="url(#grain)" opacity="0.55"/>
+
+  <!-- coordinate grid -->
+  <g stroke="#2A2A2A" stroke-width="1" opacity="0.18">
+    <path d="M120 160 H1280"/>
+    <path d="M120 250 H1280"/>
+    <path d="M120 340 H1280"/>
+    <path d="M120 430 H1280"/>
+    <path d="M120 520 H1280"/>
+    <path d="M120 610 H1280"/>
+    <path d="M120 700 H1280"/>
+    <path d="M220 100 V800"/>
+    <path d="M340 100 V800"/>
+    <path d="M460 100 V800"/>
+    <path d="M580 100 V800"/>
+    <path d="M700 100 V800"/>
+    <path d="M820 100 V800"/>
+    <path d="M940 100 V800"/>
+    <path d="M1060 100 V800"/>
+    <path d="M1180 100 V800"/>
+  </g>
+
+  <!-- isolines -->
+  <g fill="none" stroke="#2A2A2A" stroke-width="2" opacity="0.55">
+    <path d="M180,560 C310,430 520,410 620,470 C770,560 880,520 1020,420 C1120,350 1220,360 1280,410"/>
+    <path d="M170,620 C330,490 510,470 640,520 C790,580 910,570 1060,480 C1180,410 1260,420 1300,460"/>
+    <path d="M200,500 C360,380 520,360 670,410 C830,470 950,450 1090,360 C1200,290 1260,300 1310,350"/>
+  </g>
+
+  <!-- coral blocks -->
+  <g opacity="0.22">
+    <path d="M520,240 C640,200 730,220 820,270 C910,320 1030,320 1120,270 C1160,250 1200,250 1230,260 C1170,360 1020,420 880,420 C720,420 600,340 520,240 Z" fill="#E8A7A0"/>
+    <path d="M240,300 C330,270 420,290 480,340 C540,390 560,450 540,520 C450,540 360,520 300,470 C240,420 220,360 240,300 Z" fill="#F0B7AE"/>
+  </g>
+
+  <!-- scattered numeric annotations -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#2A2A2A" opacity="0.55">
+    <text x="255" y="210">41.02</text>
+    <text x="625" y="195">-73.96</text>
+    <text x="965" y="245">09.18</text>
+    <text x="1125" y="610">17.44</text>
+    <text x="430" y="700">63.90</text>
+  </g>
+
+  <!-- single accent dot -->
+  <circle cx="980" cy="470" r="6" fill="#D97843"/>
+
+  <text x="140" y="840" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#303030">CARTOGRAPHIC ABSTRACTION</text>
+  <text x="140" y="864" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#6A6A6A">grid · isolines · sparse annotations · soft coral blocks</text>
+</svg>
+

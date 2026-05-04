@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6F0E6"/>
+      <stop offset="1" stop-color="#EFE7DB"/>
+    </linearGradient>
+    <filter id="tear">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" stitchTiles="stitch"/>
+      <feDisplacementMap in="SourceGraphic" scale="18"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+
+  <!-- torn panels -->
+  <g filter="url(#tear)" opacity="0.95">
+    <path d="M160 150 H820 V760 H160 Z" fill="#F3EADD" stroke="#111" stroke-width="2" opacity="0.9"/>
+    <path d="M860 170 H1240 V720 H860 Z" fill="#E8D4B7" stroke="#111" stroke-width="2" opacity="0.85"/>
+  </g>
+
+  <!-- big negative-space numerals -->
+  <text x="220" y="520" font-family="ui-sans-serif, system-ui" font-size="260" fill="none" stroke="#111" stroke-width="3" opacity="0.65">07</text>
+
+  <!-- faux photo fragment -->
+  <g opacity="0.85">
+    <path d="M280 610 C360 540 470 520 560 560 C650 600 720 590 760 540 L760 740 L280 740 Z" fill="#2A2A2A" opacity="0.25"/>
+    <path d="M280 640 C370 580 490 570 580 610 C670 650 720 630 760 600" stroke="#111" stroke-width="2" fill="none" opacity="0.55"/>
+  </g>
+
+  <!-- lorem-ish block -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#2A2A2A" opacity="0.7">
+    <text x="900" y="260">LOREM IPSUM</text>
+    <text x="900" y="282">DOLOR SIT AMET</text>
+    <text x="900" y="304">CONSECTETUR</text>
+    <text x="900" y="326">ADIPISCING ELIT</text>
+    <text x="900" y="348">SED DO EIUSMOD</text>
+  </g>
+
+  <!-- single accent tag -->
+  <rect x="900" y="520" width="190" height="34" fill="#D97843"/>
+  <text x="912" y="543" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#F6F0E6">CUT-PAPER</text>
+
+  <text x="160" y="840" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" fill="#303030">COLLAGE / CUT-PAPER</text>
+  <text x="160" y="864" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#6A6A6A">torn textures · big numerals · photo fragment · tan panel</text>
+</svg>
+
