@@ -1,13 +1,10 @@
 ---
 name: builder-finder
 description: >
-  Source potential builders/collaborators by combining Hunter contacts, GitHub activity, and on-chain footprint.
-  Free-first, escalate to AgentCash enrichment (LinkedIn/social/etc.) when needed.
-triggers:
-  - "find builders"
-  - "collaborators"
-  - "reach out"
-  - "shortlist"
+  Sources and ranks potential builders or collaborators by combining Hunter
+  contacts, GitHub activity, project evidence, and optional on-chain footprint.
+  Use when finding builders, collaborators, outreach targets, or shortlists,
+  escalating to AgentCash enrichment when needed.
 ---
 
 # Builder Finder
@@ -73,4 +70,3 @@ Output:
 
 - Shortlist table (name, handle, why fit, evidence links, contact, score)
 - Followed by 1–2 paragraph briefs for top 5
-

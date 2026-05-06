@@ -1,17 +1,10 @@
 ---
 name: project-research
 description: >
-  Multi-stage research orchestrator for technical + crypto/prediction-market investigations.
-  Pattern: discovery → parallel extraction → aggregation → synthesis → output.
-  Always check MPP service catalog for paid sources before scraping; default to free first.
-triggers:
-  - "research"
-  - "deep dive"
-  - "write a memo"
-  - "investigate"
-  - "polymarket"
-  - "prediction markets"
-  - "on-chain"
+  Orchestrates multi-stage technical, crypto, prediction-market, Polymarket,
+  and on-chain research with discovery, parallel extraction, aggregation,
+  synthesis, and output. Use for research, deep dives, memos, investigations,
+  and MPP-aware source planning with free-first collection.
 ---
 
 # Project Research (Orchestrator)
@@ -124,4 +117,3 @@ Select output:
 Always include:
 - citations section
 - a short “methods + provenance” appendix
-

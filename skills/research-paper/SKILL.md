@@ -1,13 +1,9 @@
 ---
 name: research-paper
 description: >
-  Academic-style research paper output template (Markdown + optional LaTeX).
-  Sections: abstract, methodology, findings, citations. Evidence-grounded.
-triggers:
-  - "write a paper"
-  - "academic"
-  - "methodology"
-  - "citations"
+  Produces academic-style research papers in Markdown or optional LaTeX with
+  abstract, methodology, findings, discussion, and citations. Use when writing
+  a paper, academic analysis, methodology section, or citation-grounded report.
 ---
 
 # Research Paper (Output)
@@ -59,4 +55,3 @@ If LaTeX requested, emit:
 
 - Every non-trivial claim must have a citation.
 - If evidence is weak/second-hand, mark confidence explicitly.
-

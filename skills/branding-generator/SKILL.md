@@ -1,14 +1,10 @@
 ---
 name: branding-generator
 description: >
-  REQUIRED for all branding assets, article covers, headers, social graphics,
-  Twitter/X images, thumbnails, and visual identity work in this repo.
-  Agents must read this skill before generating or editing those assets.
-triggers:
-  - "cover image"
-  - "social graphic"
-  - "header image"
-  - "branding"
+  Creates branding kits, article covers, headers, social graphics, Twitter/X
+  images, thumbnails, and visual identity assets in this repo. Use when
+  generating or editing cover images, social graphics, header images, branding,
+  or other visual identity work.
 ---
 
 # Branding Generator
@@ -24,8 +20,8 @@ Supports **text overlay** with configurable typography and layout rules. When ge
 
 ## Visual constraints (house style)
 
-- **Primary**: cream/off-white background
-- **Accent**: warm rust/burnt orange around `#D97843` (sparingly)
+- **Primary**: clean white background (`#FFFFFF`) by default; avoid cream/off-white unless the user explicitly asks for it.
+- **Accent**: warm rust/burnt orange around `#D97843` (sparingly). Approved variants are a more futuristic vivid orange and a dark red accent, still used sparingly and never as a dominant field unless requested.
 - **Common DNA**: technical drawing precision, generous negative space, muted neutrals, mixed media (geometry + photo/texture + annotation), avoid “AI glossy” look.
 
 ## Reference set

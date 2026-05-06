@@ -1,13 +1,10 @@
 ---
 name: analytics-article
 description: >
-  Long-form, narrative-driven research article template (Paradigm-style / Coldvision investigations).
-  Data-backed claims with embedded charts and a strong methods appendix.
-triggers:
-  - "write an article"
-  - "long-form"
-  - "investigation"
-  - "paradigm-style"
+  Produces long-form, narrative-driven research articles with data-backed
+  claims, embedded charts, case studies, and a methods appendix. Use when
+  writing articles, long-form investigations, Paradigm-style analysis, or
+  Coldvision research outputs.
 ---
 
 # Analytics Article (Output)
@@ -41,4 +38,3 @@ Include charts as either:
 - Neutral, precise tone; avoid hype.
 - Use the accent color conceptually in branding outputs, not in prose.
 - Prefer concrete numbers, timestamps, and entity identifiers.
-
